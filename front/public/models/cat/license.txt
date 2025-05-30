@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cartoon cat
+* source:	https://sketchfab.com/3d-models/cartoon-cat-399a9563d4994a11b99b89cfe302fd09
+* author:	CGulia (https://sketchfab.com/CGulia)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cartoon cat" (https://sketchfab.com/3d-models/cartoon-cat-399a9563d4994a11b99b89cfe302fd09) by CGulia (https://sketchfab.com/CGulia) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
