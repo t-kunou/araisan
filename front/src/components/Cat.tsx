@@ -31,11 +31,11 @@ function Animation() {
 const CatModel: React.FC<{modelPath: string}> =({modelPath}) => {
   return (
     <Canvas camera={{ position: [0, 1, 3] }}>
-    <ambientLight intensity={0.5} />
-    <directionalLight position={[0, 5, 5]} />
-    <Model modelPath={modelPath} />
-    <OrbitControls />
-    <Animation />
+      <ambientLight intensity={0.5} />
+      <directionalLight position={[0, 5, 5]} />
+      <Model modelPath={modelPath} />
+      <OrbitControls />
+      <Animation />
     </Canvas>
   );
 };
