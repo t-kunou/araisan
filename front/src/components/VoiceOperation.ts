@@ -3,7 +3,7 @@ const prioriticalVoices = [
   'Google 日本語',
 ]
 
-export function speakText(text: string): void {
+export function speakText(text: string, onEnd?: () => void): void {
   console.log('speakText', text);
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = 'ja-JP'; // Set the language to Japanese
@@ -22,6 +22,10 @@ export function speakText(text: string): void {
 
   utterance.rate = 2.0;
   utterance.pitch = 1.2;
+
+  if (onEnd) {
+    utterance.onend = onEnd;
+  }
 
   window.speechSynthesis.speak(utterance);
 }
